@@ -1,0 +1,13 @@
+C:\Users\Aaro\Projects\backgammon\bin\Debug\netcoreapp3.1\backgammon.exe
+C:\Users\Aaro\Projects\backgammon\bin\Debug\netcoreapp3.1\backgammon.deps.json
+C:\Users\Aaro\Projects\backgammon\bin\Debug\netcoreapp3.1\backgammon.runtimeconfig.json
+C:\Users\Aaro\Projects\backgammon\bin\Debug\netcoreapp3.1\backgammon.runtimeconfig.dev.json
+C:\Users\Aaro\Projects\backgammon\bin\Debug\netcoreapp3.1\backgammon.dll
+C:\Users\Aaro\Projects\backgammon\bin\Debug\netcoreapp3.1\backgammon.pdb
+C:\Users\Aaro\Projects\backgammon\obj\Debug\netcoreapp3.1\backgammon.csprojAssemblyReference.cache
+C:\Users\Aaro\Projects\backgammon\obj\Debug\netcoreapp3.1\backgammon.AssemblyInfoInputs.cache
+C:\Users\Aaro\Projects\backgammon\obj\Debug\netcoreapp3.1\backgammon.AssemblyInfo.cs
+C:\Users\Aaro\Projects\backgammon\obj\Debug\netcoreapp3.1\backgammon.csproj.CoreCompileInputs.cache
+C:\Users\Aaro\Projects\backgammon\obj\Debug\netcoreapp3.1\backgammon.dll
+C:\Users\Aaro\Projects\backgammon\obj\Debug\netcoreapp3.1\backgammon.pdb
+C:\Users\Aaro\Projects\backgammon\obj\Debug\netcoreapp3.1\backgammon.genruntimeconfig.cache
