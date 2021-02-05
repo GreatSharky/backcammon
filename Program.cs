@@ -7,6 +7,11 @@ namespace backgammon
     {
         //Create board
         private List<List<Piece>> board_ = new List<List<Piece>>();
+
+        public Engine()
+        {
+            ;
+        }
         private void createBoard(int size=24)
         {
             int rsize = size+2;
@@ -32,9 +37,20 @@ namespace backgammon
 
     }
 
-    class Piece
+    public class Piece
     {
-        
+        public enum color {none, white, black}
+        private color shade {get;}
+
+        public Piece(color clr)
+        {
+            shade = clr;
+        }
+
+        public color GetColor(){
+            return shade;
+        }
+
     }
     
     class Program
