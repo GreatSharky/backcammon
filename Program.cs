@@ -10,66 +10,22 @@ namespace backgammon
         private void createBoard(int size=24)
         {
             int rsize = size+2;
-            bool white = true;
+            Dictionary<int, int> spots = new Dictionary<int, int>();
+            spots.Add(1, 5);
+            spots.Add(12, 2);
+            spots.Add(18, 5);
+            spots.Add(20,2);
             // create columns
             for (int i = 0; i < rsize; i++)
             {
+                // int white = [1, 12, 18, 20];
+                // Black[24 13 7 5]
                 // Fills first column
-                if(i == 1){
-                    //create 5 pices
-                    white = true;
-                    for(int j = 0; j < 5; j++){
-                        
-                    }
-                }
-                else if(i == 5){
-                    // create 3 black pices
-                    white = false;
-                    for(int j = 0; j < 3; j++){
-                        
-                    }
-                }
-                else if(i == 7){
-                    // create 5 black pieces
-                    white = false;
-                    for(int j = 0; j < 5; j++){
+                if(spots.ContainsKey(i)){
+                    //add white pieces to spot i x spots.value
 
-                    }
-                }
-                else if(i == 12){
-                    // create 2 white pices
-                    white = true;
-                    for(int j = 0; j < 2; j++){
+                    // add black pieces to spot rsize-i x spot.value
 
-                    }
-                }
-                else if(i == 13){
-                    // create 2 black pices
-                    white = false;
-                    for(int j = 0; j < 2; j++){
-
-                    }
-                }
-                else if(i == 18){
-                    // create 5 white pices
-                    white = true;
-                    for(int j = 0; j < 5; j++){
-
-                    }
-                }
-                else if(i == 20){
-                    // create 3 white pices
-                    white = true;
-                    for(int j = 0; j < 3; j++){
-
-                    }
-                }
-                else if(i == 24){
-                    // create 5 black pices
-                    white = false;
-                    for(int j = 0; j < 5; j++){
-                        
-                    }
                 }
             }
         }
