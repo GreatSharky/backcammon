@@ -10,9 +10,9 @@ namespace backgammon
 
         public Engine()
         {
-            ;
+            CreateBoard();
         }
-        private void createBoard(int size=24)
+        private void CreateBoard(int size=24)
         {
             int rsize = size+2;
             Dictionary<int, int> spots = new Dictionary<int, int>();
@@ -28,7 +28,7 @@ namespace backgammon
                 // Fills first column
                 if(spots.ContainsKey(i)){
                     //add white pieces to spot i x spots.value
-
+                    board_.
                     // add black pieces to spot rsize-i x spot.value
 
                 }
