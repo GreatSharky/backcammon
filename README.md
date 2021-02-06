@@ -1,2 +1,2 @@
 # backgammon
-Game of backgammon without fronend. At least for now
+Game of backgammon without friend. At least for now
